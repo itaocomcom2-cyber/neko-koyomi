@@ -1,0 +1,1762 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>猫の暦 — 2026年8月</title>
+<meta name="description" content="六曜・十二直・干支・九星・マヤ暦・七十二候をまとめた2026年8月の開運カレンダー。日ごとのテーマと開運アドバイス付き。">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="猫の暦">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#14263c">
+<meta property="og:title" content="猫の暦 — 2026年8月">
+<meta property="og:description" content="六曜・十二直・干支・九星・マヤ暦をまとめた開運カレンダー。">
+<meta property="og:image" content="./icons/icon-512.png">
+<meta property="og:type" content="website">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  img { max-width: 100%; display: block; }
+  button { font-family: inherit; }
+</style>
+
+<style>
+  :root {
+    --ground: #edf1f4;
+    --panel: #ffffff;
+    --panel-sub: #f7f9fb;
+    --ink: #14263c;
+    --ink-2: #41596f;
+    --ink-3: #728799;
+    --line: #d2dce3;
+    --line-strong: #b9c8d3;
+    --ai: #2a4a73;
+    --kin: #8f6a1f;
+    --kin-bg: #f2e6c9;
+    --kin-line: #d9c088;
+    --shu: #a4382c;
+    --shu-bg: #f6ded9;
+    --shu-line: #e2b0a6;
+    --nibi: #6f7a85;
+    --nibi-bg: #e3e8ec;
+    --nibi-line: #c6ced5;
+    --today: #1d6f6a;
+    --today-bg: #dff0ee;
+    --shadow: 0 1px 2px rgba(20, 38, 60, .06), 0 8px 24px -16px rgba(20, 38, 60, .3);
+
+    --mincho: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+    --gothic: "Yu Gothic UI", "Yu Gothic", "YuGothic", "Hiragino Sans", "Meiryo", sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0d1620;
+      --panel: #16212d;
+      --panel-sub: #1b2836;
+      --ink: #dde6ee;
+      --ink-2: #adbecd;
+      --ink-3: #7f92a3;
+      --line: #26333f;
+      --line-strong: #33434f;
+      --ai: #7ba4cb;
+      --kin: #d8ac55;
+      --kin-bg: #362c14;
+      --kin-line: #5c4a22;
+      --shu: #e08b7d;
+      --shu-bg: #3a201b;
+      --shu-line: #5c332b;
+      --nibi: #8d98a3;
+      --nibi-bg: #212c37;
+      --nibi-line: #33414d;
+      --today: #57bdb2;
+      --today-bg: #123531;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -16px rgba(0, 0, 0, .8);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #0d1620;
+    --panel: #16212d;
+    --panel-sub: #1b2836;
+    --ink: #dde6ee;
+    --ink-2: #adbecd;
+    --ink-3: #7f92a3;
+    --line: #26333f;
+    --line-strong: #33434f;
+    --ai: #7ba4cb;
+    --kin: #d8ac55;
+    --kin-bg: #362c14;
+    --kin-line: #5c4a22;
+    --shu: #e08b7d;
+    --shu-bg: #3a201b;
+    --shu-line: #5c332b;
+    --nibi: #8d98a3;
+    --nibi-bg: #212c37;
+    --nibi-line: #33414d;
+    --today: #57bdb2;
+    --today-bg: #123531;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -16px rgba(0, 0, 0, .8);
+  }
+
+  :root[data-theme="light"] {
+    --ground: #edf1f4;
+    --panel: #ffffff;
+    --panel-sub: #f7f9fb;
+    --ink: #14263c;
+    --ink-2: #41596f;
+    --ink-3: #728799;
+    --line: #d2dce3;
+    --line-strong: #b9c8d3;
+    --ai: #2a4a73;
+    --kin: #8f6a1f;
+    --kin-bg: #f2e6c9;
+    --kin-line: #d9c088;
+    --shu: #a4382c;
+    --shu-bg: #f6ded9;
+    --shu-line: #e2b0a6;
+    --nibi: #6f7a85;
+    --nibi-bg: #e3e8ec;
+    --nibi-line: #c6ced5;
+    --today: #1d6f6a;
+    --today-bg: #dff0ee;
+    --shadow: 0 1px 2px rgba(20, 38, 60, .06), 0 8px 24px -16px rgba(20, 38, 60, .3);
+  }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--gothic);
+    font-size: 15px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: clamp(20px, 4vw, 48px) clamp(14px, 3vw, 32px) 64px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(18px, 2.6vw, 28px);
+  }
+
+  /* ── 見出し ───────────────────────────── */
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px 32px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .masthead .era {
+    margin: 0;
+    font-family: var(--mincho);
+    font-size: 13px;
+    letter-spacing: .34em;
+    color: var(--ink-3);
+  }
+
+  .masthead h1 {
+    margin: 0;
+    font-family: var(--mincho);
+    font-size: clamp(40px, 8vw, 68px);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: .06em;
+  }
+
+  .masthead h1 .gregorian {
+    font-size: .34em;
+    letter-spacing: .18em;
+    color: var(--ink-3);
+    margin-left: .6em;
+    font-weight: 400;
+  }
+
+  .masthead .hazuki {
+    margin: 4px 0 0;
+    font-family: var(--mincho);
+    font-size: 15px;
+    letter-spacing: .28em;
+    color: var(--ai);
+  }
+
+  .masthead .year-kin {
+    font-family: var(--mincho);
+    font-size: 13.5px;
+    letter-spacing: .1em;
+    color: var(--ink-2);
+    text-align: right;
+    line-height: 1.9;
+  }
+
+  .masthead .year-kin b {
+    display: block;
+    font-size: 11px;
+    letter-spacing: .28em;
+    color: var(--ink-3);
+    font-weight: 400;
+    font-family: var(--gothic);
+  }
+
+  /* ── 本日の暦（フィーチャー） ───────────── */
+  .feature {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--today);
+    border-radius: 3px;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: 218px minmax(0, 1fr) 214px;
+  }
+
+  @media (max-width: 880px) {
+    .feature { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  .f-date {
+    padding: 16px 20px 18px;
+    border-right: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .f-date .label {
+    font-size: 11px;
+    letter-spacing: .3em;
+    color: var(--today);
+    font-weight: 700;
+  }
+
+  .f-date .big {
+    font-family: var(--mincho);
+    font-size: 32px;
+    line-height: 1.25;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .f-date .rows {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.85;
+    color: var(--ink-2);
+  }
+
+  .f-date .rows span { color: var(--ink-3); margin-right: .5em; }
+
+  .f-main { padding: 16px 22px 18px; display: flex; flex-direction: column; gap: 12px; }
+
+  .f-theme .eyebrow {
+    font-size: 11px;
+    letter-spacing: .3em;
+    color: var(--ink-3);
+  }
+
+  .f-theme p {
+    margin: 0;
+    font-family: var(--mincho);
+    font-size: clamp(19px, 2.4vw, 25px);
+    line-height: 1.5;
+    letter-spacing: .04em;
+    text-wrap: balance;
+  }
+
+  .f-acts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 20px; }
+
+  @media (max-width: 620px) { .f-acts { grid-template-columns: 1fr; } }
+
+  .f-acts h4 {
+    margin: 0 0 3px;
+    font-size: 11px;
+    letter-spacing: .22em;
+    font-weight: 700;
+  }
+
+  .f-acts .do h4 { color: var(--kin); }
+  .f-acts .dont h4 { color: var(--nibi); }
+
+  .f-acts ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 3px; }
+
+  .f-acts li {
+    font-size: 13px;
+    line-height: 1.6;
+    padding-left: 11px;
+    border-left: 3px solid var(--kin-line);
+    color: var(--ink-2);
+  }
+
+  .f-acts .dont li { border-left-color: var(--nibi-line); }
+
+  .f-luck {
+    padding: 16px 20px 18px;
+    border-left: 1px solid var(--line);
+    background: var(--panel-sub);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @media (max-width: 880px) {
+    .f-date { border-right: 0; border-bottom: 1px solid var(--line); }
+    .f-luck { border-left: 0; border-top: 1px solid var(--line); }
+  }
+
+  .f-luck .item .k {
+    font-size: 10.5px;
+    letter-spacing: .24em;
+    color: var(--ink-3);
+  }
+
+  .f-luck .item .v {
+    font-family: var(--mincho);
+    font-size: 15.5px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+  }
+
+  .f-luck .kotodama {
+    margin-top: auto;
+    border-top: 1px dotted var(--line-strong);
+    padding-top: 8px;
+  }
+
+  .f-luck .kotodama .v { color: var(--shu); }
+
+  /* ── 節気の帯 ─────────────────────────── */
+  .season-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .season-bar div {
+    flex: 1 1 148px;
+    background: var(--panel);
+    padding: 9px 14px;
+  }
+
+  .season-bar dt {
+    font-size: 10.5px;
+    letter-spacing: .2em;
+    color: var(--ink-3);
+  }
+
+  .season-bar dd {
+    margin: 0;
+    font-family: var(--mincho);
+    font-size: 15.5px;
+    letter-spacing: .04em;
+  }
+
+  .season-bar dd span {
+    font-family: var(--gothic);
+    font-size: 11.5px;
+    color: var(--ink-2);
+    margin-left: .5em;
+    letter-spacing: 0;
+  }
+
+  /* ── レイアウト ───────────────────────── */
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 306px;
+    gap: 22px;
+    align-items: start;
+  }
+
+  @media (max-width: 940px) {
+    .cols { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  /* ── カレンダー ───────────────────────── */
+  .cal {
+    background: var(--line);
+    border: 1px solid var(--line-strong);
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+  }
+
+  .dow {
+    background: var(--panel-sub);
+    text-align: center;
+    font-family: var(--mincho);
+    font-size: 13px;
+    letter-spacing: .1em;
+    padding: 6px 0;
+    color: var(--ink-2);
+  }
+
+  .dow.sun { color: var(--shu); }
+  .dow.sat { color: var(--ai); }
+
+  .cell {
+    background: var(--panel);
+    min-height: 118px;
+    padding: 6px 7px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    position: relative;
+    transition: background .15s ease;
+  }
+
+  .cell.blank { background: var(--panel-sub); cursor: default; }
+  .cell:not(.blank):hover { background: var(--panel-sub); }
+  .cell:focus-visible { outline: 2px solid var(--today); outline-offset: -3px; z-index: 2; }
+
+  .cell.is-selected { background: var(--panel-sub); box-shadow: inset 0 0 0 2px var(--ink-2); z-index: 1; }
+  .cell.is-today { background: var(--today-bg); }
+  .cell.is-today.is-selected { box-shadow: inset 0 0 0 2px var(--today); }
+
+  .cell-head { display: flex; align-items: baseline; gap: 5px; }
+
+  .num {
+    font-family: var(--mincho);
+    font-size: 23px;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cell.sun .num, .cell.holiday .num { color: var(--shu); }
+  .cell.sat .num { color: var(--ai); }
+
+  .roku {
+    font-family: var(--mincho);
+    font-size: 12px;
+    padding: 0 4px;
+    border-radius: 2px;
+    color: var(--ink-2);
+    background: var(--nibi-bg);
+  }
+
+  .roku.taian { color: var(--shu); background: var(--shu-bg); }
+  .roku.butsumetsu { color: var(--nibi); background: transparent; border: 1px solid var(--nibi-line); }
+
+  .kyureki {
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .evt {
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--ai);
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+
+  .evt.holiday { color: var(--shu); }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: auto; }
+
+  .tag {
+    font-size: 10.5px;
+    line-height: 1.5;
+    padding: 0 5px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+
+  .tag.good { color: var(--kin); background: var(--kin-bg); border: 1px solid var(--kin-line); }
+  .tag.best { color: var(--shu); background: var(--shu-bg); border: 1px solid var(--shu-line); font-weight: 700; }
+  .tag.bad { color: var(--nibi); background: var(--nibi-bg); border: 1px solid var(--nibi-line); }
+
+  .foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 5px;
+    font-size: 10px;
+    color: var(--ink-3);
+    border-top: 1px dotted var(--line-strong);
+    padding-top: 2px;
+    line-height: 1.6;
+  }
+
+  /* ── 詳細 ─────────────────────────────── */
+  .detail {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 16px;
+    overflow: hidden;
+  }
+
+  @media (max-width: 940px) { .detail { position: static; } }
+
+  .detail-head {
+    padding: 13px 18px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel-sub);
+  }
+
+  .detail-head .d-date {
+    font-family: var(--mincho);
+    font-size: 26px;
+    line-height: 1.25;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .detail-head .d-sub { font-size: 12px; color: var(--ink-2); letter-spacing: .05em; }
+
+  .detail-body { padding: 13px 18px 20px; display: flex; flex-direction: column; gap: 13px; }
+
+  .d-row .d-key { font-size: 11px; letter-spacing: .2em; color: var(--ink-3); }
+
+  .d-row .d-val { font-family: var(--mincho); font-size: 17px; letter-spacing: .04em; }
+
+  .d-row p { margin: 2px 0 0; font-size: 12.5px; line-height: 1.7; color: var(--ink-2); }
+
+  .d-theme {
+    background: var(--panel-sub);
+    border-left: 3px solid var(--today);
+    padding: 8px 12px;
+  }
+
+  .d-theme .d-val { font-size: 16px; line-height: 1.5; }
+
+  .d-list { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+
+  .d-list li {
+    padding-left: 11px;
+    border-left: 3px solid var(--line-strong);
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: var(--ink-2);
+  }
+
+  .d-list li b {
+    display: block;
+    font-family: var(--mincho);
+    font-size: 15px;
+    color: var(--ink);
+    font-weight: 600;
+    letter-spacing: .04em;
+  }
+
+  .d-list li.good { border-left-color: var(--kin); }
+  .d-list li.best { border-left-color: var(--shu); }
+  .d-list li.bad { border-left-color: var(--nibi); }
+  .d-list li.info { border-left-color: var(--ai); }
+
+  .d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 14px;
+    border-top: 1px dotted var(--line-strong);
+    padding-top: 11px;
+  }
+
+  .d-grid .k { font-size: 10.5px; letter-spacing: .2em; color: var(--ink-3); }
+  .d-grid .v { font-family: var(--mincho); font-size: 14.5px; line-height: 1.5; }
+  .d-grid .wide { grid-column: 1 / -1; }
+  .d-grid .wide .v { color: var(--shu); }
+
+  /* ── 凡例・用語 ───────────────────────── */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    align-items: center;
+    font-size: 12px;
+    color: var(--ink-2);
+  }
+
+  .legend .tag { font-size: 11px; }
+
+  details.notes { background: var(--panel); border: 1px solid var(--line); border-radius: 3px; }
+
+  details.notes > summary {
+    cursor: pointer;
+    padding: 12px 18px;
+    font-family: var(--mincho);
+    font-size: 16px;
+    letter-spacing: .1em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  details.notes > summary::-webkit-details-marker { display: none; }
+  details.notes > summary::before { content: "＋"; color: var(--ai); font-size: 13px; }
+  details.notes[open] > summary::before { content: "－"; }
+
+  .notes-body {
+    padding: 16px 18px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 18px 28px;
+    border-top: 1px solid var(--line);
+  }
+
+  .notes-body h3 {
+    margin: 0 0 6px;
+    font-family: var(--mincho);
+    font-size: 15px;
+    letter-spacing: .12em;
+    color: var(--ai);
+  }
+
+  .notes-body dl { margin: 0; }
+
+  .notes-body dt {
+    font-family: var(--mincho);
+    font-size: 13.5px;
+    margin-top: 7px;
+    letter-spacing: .04em;
+  }
+
+  .notes-body dd { margin: 0; font-size: 12px; line-height: 1.65; color: var(--ink-2); }
+
+  footer.src { font-size: 11.5px; color: var(--ink-3); line-height: 1.8; }
+  footer.src a { color: var(--ai); }
+
+  /* ── 狭い画面 ─────────────────────────── */
+  @media (max-width: 700px) {
+    .cell { min-height: 92px; padding: 5px 5px 7px; }
+    .num { font-size: 19px; }
+    .roku { font-size: 11px; padding: 0 3px; }
+    .kyureki, .foot { display: none; }
+    .evt { font-size: 10px; }
+    .tag { font-size: 9.5px; padding: 0 3px; }
+  }
+
+  @media (max-width: 460px) {
+    .tags { gap: 2px; }
+    .tag { font-size: 0; padding: 0; width: 8px; height: 8px; border-radius: 50%; }
+  }
+
+  /* ── アプリバー ───────────────────────── */
+  .appbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 7px clamp(12px, 3vw, 32px);
+    background: var(--panel);
+    border-bottom: 1px solid var(--line-strong);
+    box-shadow: 0 1px 12px -6px rgba(20, 38, 60, .5);
+  }
+
+  .appbar .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid var(--line-strong);
+    background: var(--panel-sub);
+  }
+
+  .appbar .name {
+    font-family: var(--mincho);
+    font-size: 17px;
+    letter-spacing: .1em;
+    line-height: 1.2;
+  }
+
+  .appbar .name small {
+    display: block;
+    font-family: var(--gothic);
+    font-size: 10px;
+    letter-spacing: .2em;
+    color: var(--ink-3);
+  }
+
+  .appbar .spacer { margin-left: auto; }
+
+  .bar-btn {
+    font: inherit;
+    font-size: 12.5px;
+    letter-spacing: .06em;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--panel-sub);
+    color: var(--ink-2);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .bar-btn:hover { background: var(--ground); }
+  .bar-btn:focus-visible { outline: 2px solid var(--today); outline-offset: 2px; }
+
+  .bar-btn.primary {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--panel);
+  }
+
+  .bar-btn.primary:hover { opacity: .88; }
+
+  .detail { top: 64px; }
+
+  @media (max-width: 520px) {
+    .appbar .name small { display: none; }
+    .bar-btn { padding: 6px 10px; font-size: 12px; }
+  }
+
+  /* ── QRダイアログ ─────────────────────── */
+  #qr-dialog {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    padding: 0;
+    width: 348px;
+    max-width: 92vw;
+    background: var(--panel);
+    color: var(--ink);
+    box-shadow: 0 24px 60px -20px rgba(10, 20, 32, .6);
+  }
+
+  #qr-dialog::backdrop { background: rgba(10, 20, 32, .55); }
+
+  .qr-head {
+    font-family: var(--mincho);
+    font-size: 17px;
+    letter-spacing: .12em;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel-sub);
+  }
+
+  .qr-body {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+  }
+
+  #qr-canvas {
+    width: 218px;
+    height: 218px;
+    image-rendering: pixelated;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: #fff;
+  }
+
+  .qr-url {
+    margin: 0;
+    font-size: 10.5px;
+    line-height: 1.5;
+    color: var(--ink-3);
+    word-break: break-all;
+    text-align: center;
+    user-select: all;
+  }
+
+  .qr-note {
+    margin: 0;
+    font-size: 11.5px;
+    line-height: 1.7;
+    color: var(--ink-2);
+    background: var(--panel-sub);
+    border-left: 3px solid var(--kin);
+    padding: 7px 11px;
+  }
+
+  .qr-how {
+    align-self: stretch;
+    font-size: 11.5px;
+    line-height: 1.7;
+    color: var(--ink-2);
+    border-top: 1px dotted var(--line-strong);
+    padding-top: 10px;
+  }
+
+  .qr-how b {
+    display: block;
+    font-family: var(--mincho);
+    font-size: 13.5px;
+    color: var(--ink);
+    letter-spacing: .04em;
+    margin-bottom: 2px;
+  }
+
+  .qr-actions { display: flex; gap: 8px; align-self: stretch; }
+  .qr-actions .bar-btn { flex: 1; text-align: center; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .cal .cell { animation: rise .5s ease both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: none; }
+    }
+  }
+</style>
+
+</head>
+<body>
+
+<div class="appbar">
+  <img class="icon" id="app-icon" alt="猫の暦">
+  <div class="name">猫の暦<small>令和八年 葉月</small></div>
+  <div class="spacer"></div>
+  <button type="button" class="bar-btn" id="btn-install" hidden>アプリに追加</button>
+  <button type="button" class="bar-btn" id="btn-today">今日</button>
+  <button type="button" class="bar-btn primary" id="btn-qr">スマホで開く</button>
+</div>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <p class="era">令和八年</p>
+      <h1>八月<span class="gregorian">2026 / AUGUST</span></h1>
+      <p class="hazuki">葉月　秋の始まり</p>
+    </div>
+    <p class="year-kin"><b>マヤ暦 2026年の年回り</b>青いスペクトルの夜（Kin 63）<br>解き放ち・豊かさを分かち合う一年</p>
+  </header>
+
+  <section class="feature" id="feature" aria-live="polite"></section>
+
+  <dl class="season-bar">
+    <div><dt>節気</dt><dd>立秋<span>8月7日</span></dd></div>
+    <div><dt>節気</dt><dd>処暑<span>8月23日</span></dd></div>
+    <div><dt>朔（新月）</dt><dd>8月13日<span>獅子座・皆既日食</span></dd></div>
+    <div><dt>望（満月）</dt><dd>8月28日<span>魚座・部分月食</span></dd></div>
+    <div><dt>雑節</dt><dd>夏土用明<span>8月6日</span></dd></div>
+    <div><dt>ライオンズゲート</dt><dd>〜8月12日<span>最大は8月8日</span></dd></div>
+  </dl>
+
+  <div class="cols">
+    <div>
+      <div class="cal" id="cal"></div>
+      <div class="legend" style="margin-top:12px">
+        <span class="tag best">最上の吉日</span>
+        <span class="tag good">吉日・吉の暦注</span>
+        <span class="tag bad">凶日・注意日</span>
+        <span>日付をクリックすると、その日の暦とアドバイスが右（スマホでは下）に出ます</span>
+      </div>
+    </div>
+
+    <aside class="detail" id="detail" aria-live="polite"></aside>
+  </div>
+
+  <details class="notes">
+    <summary>暦のことば</summary>
+    <div class="notes-body">
+      <section>
+        <h3>六曜</h3>
+        <dl>
+          <dt>先勝（せんしょう）</dt><dd>午前が吉、午後は凶。急ぐ用事に向く日。</dd>
+          <dt>友引（ともびき）</dt><dd>朝夕は吉、正午のみ凶。祝い事に良く、葬儀は避ける。</dd>
+          <dt>先負（せんぶ）</dt><dd>午前は凶、午後が吉。急がず控えめに動く日。</dd>
+          <dt>仏滅（ぶつめつ）</dt><dd>万事に凶とされる日。手放し・整理には向く。</dd>
+          <dt>大安（たいあん）</dt><dd>終日吉。何を始めるにも良い最上日。</dd>
+          <dt>赤口（しゃっこう）</dt><dd>正午前後のみ吉。火と刃物に注意。</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>十二直</h3>
+        <dl>
+          <dt>建・満・平・定・成・開</dt><dd>おおむね吉。開店、移転、契約、祝い事など前へ進める行動に向く。</dd>
+          <dt>除・執・納・閉</dt><dd>半吉。不要なものを除く、納める、締めるといった内向きの行動に向く。</dd>
+          <dt>破・危</dt><dd>凶。破は談判や訴訟にのみ吉。危は控えめに過ごす日。</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>選日・暦注</h3>
+        <dl>
+          <dt>一粒万倍日</dt><dd>一粒の籾が万倍に実る日。仕事始め・開店・種まき・財布の新調に吉。借金と借り物は凶。</dd>
+          <dt>寅の日</dt><dd>毘沙門天の遣い「寅」の日。金運招来、旅立ちに吉。嫁入りは「帰ってくる」として避ける。</dd>
+          <dt>巳の日・己巳の日</dt><dd>弁財天の縁日。金運・財運の日。己巳の日は60日に一度の最強金運日。</dd>
+          <dt>甲子の日</dt><dd>干支が一巡して戻る起点。大黒天の縁日で、物事を始めるのに吉。</dd>
+          <dt>天恩日</dt><dd>天の恩恵がすべての人に及ぶ日。慶事全般に吉。</dd>
+          <dt>不成就日</dt><dd>何事も成就しないとされる日。新規事・願い事・結婚は避ける。</dd>
+          <dt>受死日（黒日）</dt><dd>暦注下段で最大の凶日。葬儀以外のすべてを慎む。</dd>
+          <dt>三隣亡</dt><dd>建築の大凶日。棟上げ・地鎮祭・引っ越しは避ける。</dd>
+          <dt>八専</dt><dd>干支の気が重なる12日間。吉凶が極端に出るとされ、法事・造作は控える。間日は影響を受けない。</dd>
+          <dt>土用</dt><dd>季節の変わり目の18日間。土を動かす作業（基礎工事・草むしり）を避ける。</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>マヤ暦（ツォルキン）</h3>
+        <dl>
+          <dt>Kin（キン）</dt><dd>260日で一巡する暦の通し番号。20の紋章と13の音の組み合わせで、その日のエネルギーを読む。</dd>
+          <dt>紋章</dt><dd>赤い龍・白い風・青い夜…の20種。その日の性質を表す。</dd>
+          <dt>音</dt><dd>磁気・月・電気…宇宙までの13種。物事の進み具合の段階を表す。</dd>
+          <dt>白い北の城</dt><dd>Kin53〜104。8月は全日がこの区画で、「洗練・見直し」がテーマの期間にあたる。</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>九星と五行</h3>
+        <dl>
+          <dt>日の九星</dt><dd>一白水星〜九紫火星が日ごとに巡る。夏至後は逆順（陰遁）に進む。その日の色の目安になる。</dd>
+          <dt>五行</dt><dd>木・火・土・金・水。日の十干から導き、開運フードの目安にする。木＝青菜、火＝赤い食材、土＝甘い根菜、金＝白い食材、水＝黒い食材と海藻。</dd>
+          <dt>吉方位</dt><dd>ここでは日の十二支が示す方位（子＝北、卯＝東、午＝南、酉＝西…）を、その日の気が満ちる方角として載せています。</dd>
+        </dl>
+      </section>
+      <section>
+        <h3>季節と神仏</h3>
+        <dl>
+          <dt>七十二候</dt><dd>二十四節気をさらに三つに分けた、五日ごとの季節の呼び名。</dd>
+          <dt>ライオンズゲート</dt><dd>7月26日〜8月12日。獅子座の太陽とシリウスが重なるとされる期間で、8月8日が最大とされる。</dd>
+          <dt>神仏の縁日</dt><dd>弁財天＝巳の日、毘沙門天＝寅の日、大黒天＝甲子の日、お稲荷さん＝午の日、龍神＝辰の日、観音＝18日、不動明王＝28日。</dd>
+        </dl>
+      </section>
+    </div>
+  </details>
+
+  <footer class="src">
+    構成は「ChatGPTからのメモ2.txt」に挙げられた要素（六曜／十二直／暦注下段・選日／干支／二十四節気・七十二候／月の満ち欠け／マヤ暦／陰陽五行／神仏の縁日／ライオンズゲート）に沿っています。テーマ・行動・開運フード・吉方位は、その日の暦を組み合わせた解釈です。<br>
+    日付の裏取り：<a href="https://www.magicwands.jp/calculator/calendar/?year=2026&month=8">Magic Wands 開運カレンダー 2026年8月</a>、<a href="https://hana-yume.net/howto/ichiryumanbaibi/">2026年の一粒万倍日一覧</a>、<a href="https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html">国立天文台 令和8年暦要項</a>。2026年8月に天赦日はありません（次は10月1日）。
+  </footer>
+</div>
+
+<dialog id="qr-dialog">
+  <div class="qr-head">スマホで開く</div>
+  <div class="qr-body">
+    <canvas id="qr-canvas" aria-label="このページのQRコード"></canvas>
+    <p class="qr-url" id="qr-url"></p>
+    <p class="qr-note">スマホのカメラを向けると、このページがそのまま開きます。ログインは不要です。一度開いたあとにホーム画面へ追加すると、電波がなくても使えます。</p>
+    <div class="qr-how">
+      <b>ホーム画面に追加すると、アプリとして開けます</b>
+      iPhone：共有ボタン → ホーム画面に追加<br>
+      Android：メニュー → ホーム画面に追加
+    </div>
+    <div class="qr-actions">
+      <button type="button" class="bar-btn" id="btn-qr-save">QRコードを保存</button>
+      <button type="button" class="bar-btn primary" id="btn-qr-close">閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  // ── 2026年8月の暦 ─────────────────────────────────────────────
+  // tags の k は best（最上吉）/ good（吉）/ bad（凶・注意）
+  const DAYS = [
+    {
+      d: 1, roku: "赤口", choku: "建", eto: "丁未", etoYomi: "ひのとひつじ", kyu: "旧6/19", kyuKanji: "旧六月十九日",
+      kyusei: "二黒土星", kin: 69, kinName: "赤い自己存在の月", ko: "土潤溽暑（つちうるおうてむしあつし）",
+      gogyo: "火", houi: "南西", food: "とうもろこし・トマト", color: "黄・ベージュ", kotodama: "ととのいます",
+      theme: "土台をならしてから、八月を始める。",
+      dos: ["月の予定と目標を紙に書き出す", "水回りを磨いて流れをつくる", "正午前後に用件を片づける"],
+      donts: ["庭仕事・草むしりなど土を動かすこと", "夕方以降の大きな決断"],
+      tags: [{ n: "夏土用", k: "bad", t: "季節の変わり目の18日間。土を動かす作業は8月6日まで控える。" }]
+    },
+    {
+      d: 2, roku: "先勝", choku: "除", eto: "戊申", etoYomi: "つちのえさる", kyu: "旧6/20", kyuKanji: "旧六月二十日",
+      kyusei: "一白水星", kin: 70, kinName: "白い倍音の犬", ko: "大雨時行（たいうときどきふる）",
+      gogyo: "土", houi: "南西", food: "枝豆・かぼちゃ", color: "白・黒", kotodama: "ありがとう",
+      theme: "午前のうちに手放し、身近な人に感謝を返す日。",
+      dos: ["午前中に用事を片づける", "不要品を処分して風通しをよくする", "家族や友人に「ありがとう」を伝える"],
+      donts: ["午後からの新しい決断", "土いじり（土用の最中）"],
+      tags: [{ n: "夏土用", k: "bad", t: "土を動かす作業は控える。間日にはあたらない日。" }]
+    },
+    {
+      d: 3, roku: "友引", choku: "満", eto: "己酉", etoYomi: "つちのととり", kyu: "旧6/21", kyuKanji: "旧六月二十一日",
+      kyusei: "九紫火星", kin: 71, kinName: "青い律動の猿", ko: "大雨時行（たいうときどきふる）",
+      gogyo: "土", houi: "西", food: "さつまいも・甘酒", color: "紫・赤", kotodama: "実ります",
+      theme: "まく種を選ぶ日。小さく始めたことが大きく実る。",
+      dos: ["積立・貯金をはじめる", "財布や通帳を新しくする", "人に贈り物をする（友引）"],
+      donts: ["借金・借り物（凶事も万倍になる）", "正午の重要な決め事"],
+      tags: [
+        { n: "一粒万倍日", k: "best", t: "一粒の籾が万倍に実る日。仕事始め・開店・財布の新調に吉。借金は凶。" },
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。8月7日まで続く。" }]
+    },
+    {
+      d: 4, roku: "先負", choku: "平", eto: "庚戌", etoYomi: "かのえいぬ", kyu: "旧6/22", kyuKanji: "旧六月二十二日",
+      kyusei: "八白土星", kin: 72, kinName: "黄色い共振の人", ko: "大雨時行（たいうときどきふる）",
+      gogyo: "金", houi: "北西", food: "大根・豆腐・みょうが", color: "白・黄土色", kotodama: "おかげさまで",
+      theme: "午後から、平らにならす。人の話を聴く日。",
+      dos: ["午後に作業をまとめる", "玄関と足元を整える", "相手の話を最後まで聴く"],
+      donts: ["新規の願掛け・契約（不成就日）", "午前の勝負事"],
+      tags: [
+        { n: "不成就日", k: "bad", t: "何事も成就しないとされる日。新規事・願い事は見送る。" },
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。" }]
+    },
+    {
+      d: 5, roku: "仏滅", choku: "定", eto: "辛亥", etoYomi: "かのとい", kyu: "旧6/23", kyuKanji: "旧六月二十三日",
+      kyusei: "七赤金星", kin: 73, kinName: "赤い銀河の空歩く者", ko: "大雨時行（たいうときどきふる）",
+      gogyo: "金", houi: "北西", food: "白ごま・梨", color: "赤・金", kotodama: "これでよし",
+      theme: "手放して、方針をひとつに定める。",
+      dos: ["やらないことを決める", "水回りを清める（水天宮の縁日）", "予定を一本に絞る"],
+      donts: ["開店・移転など新しい門出", "旅行の出発（十二直「定」）"],
+      tags: [{ n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。" }]
+    },
+    {
+      d: 6, roku: "大安", choku: "執", eto: "壬子", etoYomi: "みずのえね", kyu: "旧6/24", kyuKanji: "旧六月二十四日",
+      kyusei: "六白金星", kin: 74, kinName: "白い太陽の魔法使い", ko: "大雨時行（たいうときどきふる）",
+      gogyo: "水", houi: "北", food: "海藻・黒豆・しじみ", color: "白・シルバー", kotodama: "今日から始めます",
+      evt: "土用明け・下弦の月",
+      theme: "八月前半でいちばん動きやすい日。大安と天恩日が重なる。",
+      dos: ["契約・申し込み・お参り", "黙祷して静かに祈る（広島原爆の日）", "道具を手入れする"],
+      donts: ["大きな金銭の出入り（十二直「執」）", "八専入りの極端な判断"],
+      tags: [
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。大安と重なり、この週でもっとも動きやすい日。" },
+        { n: "八専入り", k: "bad", t: "8月17日まで続く八専の初日。吉凶が極端に出るとされる期間。" }]
+    },
+    {
+      d: 7, roku: "赤口", choku: "執", eto: "癸丑", etoYomi: "みずのとうし", kyu: "旧6/25", kyuKanji: "旧六月二十五日",
+      kyusei: "五黄土星", kin: 75, kinName: "青い惑星の鷲", ko: "涼風至（すずかぜいたる）",
+      gogyo: "水", houi: "北東", food: "冷奴・わかめ・なす", color: "黄・金", kotodama: "見晴らしがよくなる",
+      evt: "立秋",
+      theme: "暦の上の秋。高いところから今年の残りを見渡す。",
+      dos: ["秋に向けて目標を立て直す", "暑中見舞いを残暑見舞いに切り替える", "正午前後に動く"],
+      donts: ["火と刃物の扱い（赤口）", "朝夕の勝負事"],
+      tags: [
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。" },
+        { n: "八専間日", k: "good", t: "八専の期間中でも影響を受けない日。" }]
+    },
+    {
+      d: 8, roku: "先勝", choku: "破", eto: "甲寅", etoYomi: "きのえとら", kyu: "旧6/26", kyuKanji: "旧六月二十六日",
+      kyusei: "四緑木星", kin: 76, kinName: "黄色いスペクトルの戦士", ko: "涼風至（すずかぜいたる）",
+      gogyo: "木", houi: "北東", food: "青菜・枝豆・きゅうり", color: "緑", kotodama: "入ってきます",
+      evt: "ライオンズゲート最大",
+      theme: "金運の門がいちばん大きく開く日。午前に動く。",
+      dos: ["午前中に財布を新調・お金を整理する", "銀行や証券の手続き", "望む未来を一行で書き出す"],
+      donts: ["入籍・結婚（寅は帰ってくるとされる）", "契約・祝い事（十二直「破」）"],
+      tags: [
+        { n: "ライオンズゲート", k: "best", t: "7月26日から続く期間の最大日。宇宙のエネルギーが最も強く届くとされ、意図を決めるのに向く。" },
+        { n: "寅の日", k: "good", t: "毘沙門天の遣い「寅」の日。金運招来・旅立ちに吉。嫁入りは避ける。" },
+        { n: "八専", k: "bad", t: "八専の期間中。法事・造作は控える。" }]
+    },
+    {
+      d: 9, roku: "友引", choku: "危", eto: "乙卯", etoYomi: "きのとう", kyu: "旧6/27", kyuKanji: "旧六月二十七日",
+      kyusei: "三碧木星", kin: 77, kinName: "赤い水晶の地球", ko: "涼風至（すずかぜいたる）",
+      gogyo: "木", houi: "東", food: "モロヘイヤ・オクラ・ゴーヤ", color: "青・緑", kotodama: "ていねいに",
+      theme: "足元を確かめる日。急がず、地に足をつける。",
+      dos: ["黙祷（長崎原爆の日）", "身近な人と静かに過ごす", "住まいの安全を点検する"],
+      donts: ["高い所・水辺・長距離の運転（十二直「危」）", "無理な遠出"],
+      tags: [{ n: "八専", k: "bad", t: "八専の期間中。十二直も「危」で、控えめに過ごしたい日。" }]
+    },
+    {
+      d: 10, roku: "先負", choku: "成", eto: "丙辰", etoYomi: "ひのえたつ", kyu: "旧6/28", kyuKanji: "旧六月二十八日",
+      kyusei: "二黒土星", kin: 78, kinName: "白い宇宙の鏡", ko: "涼風至（すずかぜいたる）",
+      gogyo: "火", houi: "南東", food: "トマト・すいか", color: "黄・茶", kotodama: "成ります",
+      theme: "午後に仕上げる。龍神の日で、水にご縁が向く。",
+      dos: ["午後から提出・納品・仕上げ", "龍神を祀る神社へ参拝（辰の日）", "花や水を新しくする"],
+      donts: ["午前の勝負事", "訴訟・談判（十二直「成」）"],
+      tags: [{ n: "八専間日", k: "good", t: "八専の影響を受けない日。十二直「成」と重なり物事が成就しやすい。" }]
+    },
+    {
+      d: 11, roku: "仏滅", choku: "納", eto: "丁巳", etoYomi: "ひのとみ", kyu: "旧6/29", kyuKanji: "旧六月二十九日",
+      kyusei: "一白水星", kin: 79, kinName: "青い磁気の嵐", ko: "涼風至（すずかぜいたる）",
+      gogyo: "火", houi: "南東", food: "卵・鰻", color: "白・黒", kotodama: "めぐります",
+      evt: "山の日", holiday: true,
+      theme: "休んで、納める日。弁財天の縁日で金運が動く。",
+      dos: ["弁財天のお社へ参拝（巳の日）", "財布と通帳の中身を整える", "山や自然のなかで過ごす"],
+      donts: ["開店・祝い事（仏滅と「納」の重なり）", "見舞い"],
+      tags: [
+        { n: "巳の日", k: "good", t: "弁財天の縁日。金運・財運の日。財布や通帳を整えるのに吉。" },
+        { n: "八専", k: "bad", t: "八専の期間中。" }]
+    },
+    {
+      d: 12, roku: "大安", choku: "開", eto: "戊午", etoYomi: "つちのえうま", kyu: "旧6/30", kyuKanji: "旧六月三十日",
+      kyusei: "九紫火星", kin: 80, kinName: "黄色い月の太陽", ko: "寒蝉鳴（ひぐらしなく）",
+      gogyo: "土", houi: "南", food: "いなり寿司・とうもろこし", color: "紫・赤", kotodama: "道がひらける",
+      evt: "ライオンズゲート最終日",
+      theme: "大安と「開」が重なる、門出の日。",
+      dos: ["引っ越し・模様替え・開業", "お稲荷さんへ参拝（午の日）", "ゲート期間の締めくくりに願いを言葉にする"],
+      donts: ["葬儀など不浄事（十二直「開」）", "火の元の不始末"],
+      tags: [{ n: "八専間日", k: "good", t: "八専の影響を受けない日。大安・十二直「開」と重なる好日。" }]
+    },
+    {
+      d: 13, roku: "先勝", choku: "閉", eto: "己未", etoYomi: "つちのとひつじ", kyu: "旧7/1", kyuKanji: "旧七月一日",
+      kyusei: "八白土星", kin: 81, kinName: "赤い電気の龍", ko: "寒蝉鳴（ひぐらしなく）",
+      gogyo: "土", houi: "南西", food: "甘酒・里芋", color: "白・黄土色", kotodama: "新しく始まります",
+      evt: "朔（新月・皆既日食）／盆入り",
+      theme: "獅子座の新月と一粒万倍日。八月の願いを立てる起点。",
+      dos: ["午前中に願い事を紙に書く", "先祖を迎える・仏壇を整える", "貯金をはじめる（「閉」は貯蓄に吉）"],
+      donts: ["開店・婚礼（十二直「閉」）", "借入れ（万倍に膨らむ）"],
+      tags: [
+        { n: "一粒万倍日", k: "best", t: "新月と重なる日。新しく始めること・願い事の設定に最適。" },
+        { n: "八専", k: "bad", t: "八専の期間中。" }]
+    },
+    {
+      d: 14, roku: "友引", choku: "建", eto: "庚申", etoYomi: "かのえさる", kyu: "旧7/2", kyuKanji: "旧七月二日",
+      kyusei: "七赤金星", kin: 82, kinName: "白い自己存在の風", ko: "寒蝉鳴（ひぐらしなく）",
+      gogyo: "金", houi: "南西", food: "白ごま・豆腐・梨", color: "赤・金", kotodama: "言葉が届く",
+      theme: "柱を立て、言葉を丁寧に届ける日。",
+      dos: ["計画を立ち上げる（十二直「建」）", "お礼状やメッセージを送る", "人に贈り物をする"],
+      donts: ["土を動かすこと・蔵開き", "正午の決め事（友引）"],
+      tags: [{ n: "八専", k: "bad", t: "八専の期間中。" }]
+    },
+    {
+      d: 15, roku: "先負", choku: "除", eto: "辛酉", etoYomi: "かのととり", kyu: "旧7/3", kyuKanji: "旧七月三日",
+      kyusei: "六白金星", kin: 83, kinName: "青い倍音の夜", ko: "寒蝉鳴（ひぐらしなく）",
+      gogyo: "金", houi: "西", food: "白身魚・大根おろし・白桃", color: "白・シルバー", kotodama: "もう充分いただいた",
+      evt: "終戦の日",
+      theme: "静かに手放す日。すでにある豊かさを数える。",
+      dos: ["黙祷", "午後から不用品を処分する（十二直「除」）", "今ある豊かさを書き出す"],
+      donts: ["新規の願掛け・入籍・開業（不成就日）", "婚礼"],
+      tags: [
+        { n: "不成就日", k: "bad", t: "何事も成就しないとされる日。新規事は見送る。" },
+        { n: "八専", k: "bad", t: "八専の期間中。" }]
+    },
+    {
+      d: 16, roku: "仏滅", choku: "満", eto: "壬戌", etoYomi: "みずのえいぬ", kyu: "旧7/4", kyuKanji: "旧七月四日",
+      kyusei: "五黄土星", kin: 84, kinName: "黄色い律動の種", ko: "寒蝉鳴（ひぐらしなく）",
+      gogyo: "水", houi: "北西", food: "黒豆・ひじき・しじみ", color: "黄・金", kotodama: "満ちています",
+      evt: "送り火",
+      theme: "満たして、送り出す日。",
+      dos: ["送り火・墓参り", "家族の食卓を満たす（十二直「満」）", "秋に向けた小さな一歩を決める"],
+      donts: ["服薬や治療の開始・土いじり（「満」）", "大きな新規の決断（仏滅）"],
+      tags: [{ n: "八専", k: "bad", t: "八専の期間中。" }]
+    },
+    {
+      d: 17, roku: "大安", choku: "平", eto: "癸亥", etoYomi: "みずのとい", kyu: "旧7/5", kyuKanji: "旧七月五日",
+      kyusei: "四緑木星", kin: 85, kinName: "赤い共振の蛇", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "水", houi: "北西", food: "海藻・冷汁・豆腐", color: "緑", kotodama: "ととのう",
+      theme: "大安と「平」。でこぼこをならし、和解する日。",
+      dos: ["旅行・移動", "こじれた話を穏やかに戻す", "道具の手入れと参拝"],
+      donts: ["穴掘り・種まき（十二直「平」）", "感情を高ぶらせること"],
+      tags: [{ n: "八専明け", k: "good", t: "八専の最終日。翌日から通常の暦に戻る。" }]
+    },
+    {
+      d: 18, roku: "赤口", choku: "定", eto: "甲子", etoYomi: "きのえね", kyu: "旧7/6", kyuKanji: "旧七月六日",
+      kyusei: "三碧木星", kin: 86, kinName: "白い銀河の世界の橋渡し", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "木", houi: "北", food: "大豆・青菜・枝豆", color: "青・緑", kotodama: "ここから始めます",
+      theme: "八月最良の「始める日」。甲子と一粒万倍日が重なる。",
+      dos: ["長く続けたいことを始める（甲子は60日周期の起点）", "大黒天へ参拝・積立や習慣づくり", "正午前後に契約を結ぶ"],
+      donts: ["朝夕の勝負事（赤口）", "借金"],
+      tags: [
+        { n: "一粒万倍日", k: "best", t: "甲子の日と重なる、8月でもっとも「始める」に向く日。" },
+        { n: "甲子の日", k: "best", t: "干支が一巡して戻る起点。大黒天の縁日で、長く続けたいことを始めるのに吉。" },
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。8月22日まで続く。" }]
+    },
+    {
+      d: 19, roku: "先勝", choku: "執", eto: "乙丑", etoYomi: "きのとうし", kyu: "旧7/7", kyuKanji: "旧七月七日",
+      kyusei: "二黒土星", kin: 87, kinName: "青い太陽の手", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "木", houi: "北東", food: "オクラ・モロヘイヤ", color: "黄・茶", kotodama: "今日は静かに",
+      theme: "受死日。大きく動かず、手仕事を丁寧に。",
+      dos: ["午前中に修理・手入れ・手仕事", "日常のことを丁寧にこなす", "予定を翌日以降にずらす"],
+      donts: ["慶事・大きな決断・旅立ち（受死日）", "大きな金銭の出入り"],
+      tags: [
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。" },
+        { n: "受死日", k: "bad", t: "暦注下段で最大の凶日（黒日）。大きな決断や慶事は避ける。" }]
+    },
+    {
+      d: 20, roku: "友引", choku: "破", eto: "丙寅", etoYomi: "ひのえとら", kyu: "旧7/8", kyuKanji: "旧七月八日",
+      kyusei: "一白水星", kin: 88, kinName: "黄色い惑星の星", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "火", houi: "北東", food: "トマト・赤パプリカ・鰹", color: "白・黒", kotodama: "めぐりがよくなる",
+      evt: "上弦の月",
+      theme: "金運の寅の日。ただし「破」なので、結ぶより切る。",
+      dos: ["財布の新調・お金の整理", "交渉・値下げ交渉・関係の整理（十二直「破」）", "身のまわりを美しく整える"],
+      donts: ["契約・祝い事・入籍", "新しい約束を結ぶこと"],
+      tags: [
+        { n: "寅の日", k: "good", t: "金運招来の日。財布の新調・旅立ちに吉。" },
+        { n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。慶事全般に吉。" }]
+    },
+    {
+      d: 21, roku: "先負", choku: "危", eto: "丁卯", etoYomi: "ひのとう", kyu: "旧7/9", kyuKanji: "旧七月九日",
+      kyusei: "九紫火星", kin: 89, kinName: "赤いスペクトルの月", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "火", houi: "東", food: "生姜・梅・赤しそ", color: "紫・赤", kotodama: "流れにまかせる",
+      theme: "流して、控える日。お大師様の縁日。",
+      dos: ["午後の穏やかな作業", "水回りを清める", "縁日の参拝（弘法大師）"],
+      donts: ["高所・車・水辺（十二直「危」）", "感情的なやりとり"],
+      tags: [{ n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。ただし十二直は「危」で慎重に。" }]
+    },
+    {
+      d: 22, roku: "仏滅", choku: "成", eto: "戊辰", etoYomi: "つちのえたつ", kyu: "旧7/10", kyuKanji: "旧七月十日",
+      kyusei: "八白土星", kin: 90, kinName: "白い水晶の犬", ko: "蒙霧升降（ふかききりまとう）",
+      gogyo: "土", houi: "南東", food: "かぼちゃ・根菜", color: "白・黄土色", kotodama: "できあがる",
+      theme: "やりかけを仕上げる日。龍神の日でもある。",
+      dos: ["途中のものを完成させる（十二直「成」）", "龍神へ参拝（辰の日）", "仲間や家族と過ごす"],
+      donts: ["訴訟・談判（「成」）", "新規の大きな話（仏滅）"],
+      tags: [{ n: "天恩日", k: "good", t: "天の恩恵が及ぶ日。十二直「成」と重なり物事が成就しやすい。" }]
+    },
+    {
+      d: 23, roku: "大安", choku: "納", eto: "己巳", etoYomi: "つちのとみ", kyu: "旧7/11", kyuKanji: "旧七月十一日",
+      kyusei: "七赤金星", kin: 91, kinName: "青い宇宙の猿", ko: "綿柎開（わたのはなしべひらく）",
+      gogyo: "土", houi: "南東", food: "卵・甘酒・あんこ", color: "赤・金", kotodama: "豊かさが納まる",
+      evt: "処暑",
+      theme: "60日に一度の己巳の日。大安と重なる、八月最大の金運日。",
+      dos: ["弁財天へ参拝", "財布に種銭を納める（十二直「納」）", "貯蓄と投資を見直す"],
+      donts: ["新規の願掛け・契約は翌日以降へ（不成就日）", "婚礼・見舞い（「納」）"],
+      tags: [
+        { n: "己巳の日", k: "best", t: "60日に一度の弁財天の大縁日。金運・財運が最も高まるとされ、大安とも重なる。" },
+        { n: "不成就日", k: "bad", t: "何事も成就しないとされる日。金運の行動は吉、新規の契約や願掛けは翌日以降に。" }]
+    },
+    {
+      d: 24, roku: "赤口", choku: "開", eto: "庚午", etoYomi: "かのえうま", kyu: "旧7/12", kyuKanji: "旧七月十二日",
+      kyusei: "六白金星", kin: 92, kinName: "黄色い磁気の人", ko: "綿柎開（わたのはなしべひらく）",
+      gogyo: "金", houi: "南", food: "いなり寿司・大根・白ごま", color: "白・シルバー", kotodama: "引き寄せます",
+      theme: "開いて、引き寄せる日。人に会うと流れが変わる。",
+      dos: ["正午前後に新しい話を進める", "お稲荷さん・お地蔵さんへ参拝", "会いたい人に連絡する（磁気＝引き寄せ）"],
+      donts: ["火と刃物（赤口）", "葬儀など不浄事（十二直「開」）"],
+      tags: []
+    },
+    {
+      d: 25, roku: "先勝", choku: "閉", eto: "辛未", etoYomi: "かのとひつじ", kyu: "旧7/13", kyuKanji: "旧七月十三日",
+      kyusei: "五黄土星", kin: 93, kinName: "赤い月の空歩く者", ko: "綿柎開（わたのはなしべひらく）",
+      gogyo: "金", houi: "南西", food: "白米・豆腐・梨", color: "黄・金", kotodama: "増えていきます",
+      theme: "貯める万倍日。外へ出すより、内へ納める。",
+      dos: ["午前中に貯金・積立・保険を見直す", "財布の中を整理する", "支出の締めをつくる（十二直「閉」）"],
+      donts: ["開店・婚礼（「閉」）", "借入れ（万倍に膨らむ）"],
+      tags: [{ n: "一粒万倍日", k: "best", t: "十二直は「閉」。貯金や締めくくりなど、内へ納める行動と相性が良い。" }]
+    },
+    {
+      d: 26, roku: "友引", choku: "建", eto: "壬申", etoYomi: "みずのえさる", kyu: "旧7/14", kyuKanji: "旧七月十四日",
+      kyusei: "四緑木星", kin: 94, kinName: "白い電気の魔法使い", ko: "綿柎開（わたのはなしべひらく）",
+      gogyo: "水", houi: "南西", food: "海藻・黒ごま・なす", color: "緑", kotodama: "立ち上がる",
+      theme: "立ち上げる日。人と人をつなぐと物事が動く。",
+      dos: ["新しい企画を立てる（十二直「建」）", "人を紹介してつなぐ（友引）", "身を清めて場を整える"],
+      donts: ["土を動かすこと・蔵開き", "正午の決め事"],
+      tags: []
+    },
+    {
+      d: 27, roku: "先負", choku: "除", eto: "癸酉", etoYomi: "みずのととり", kyu: "旧7/15", kyuKanji: "旧七月十五日",
+      kyusei: "三碧木星", kin: 95, kinName: "青い自己存在の鷲", ko: "綿柎開（わたのはなしべひらく）",
+      gogyo: "水", houi: "西", food: "しじみ・わかめ・冷たい麺", color: "青・緑", kotodama: "見えてくる",
+      theme: "午後に整理し、視野を広げて計画を見直す。",
+      dos: ["午後から不要なものを除く", "健康の手当て・通院（十二直「除」）", "九月の予定を俯瞰する"],
+      donts: ["午前の勝負事", "婚礼（「除」）"],
+      tags: []
+    },
+    {
+      d: 28, roku: "仏滅", choku: "満", eto: "甲戌", etoYomi: "きのえいぬ", kyu: "旧7/16", kyuKanji: "旧七月十六日",
+      kyusei: "二黒土星", kin: 96, kinName: "黄色い倍音の戦士", ko: "天地始粛（てんちはじめてさむし）",
+      gogyo: "木", houi: "北西", food: "青菜・枝豆・月見のもの", color: "黄・茶", kotodama: "手放します",
+      evt: "望（満月・部分月食）",
+      theme: "魚座の満月。満ちきったところで、いらないものを手放す。",
+      dos: ["手放したいことを書き出して整理する", "不動明王へ参拝（28日の縁日）", "食卓を満たして月を眺める"],
+      donts: ["新規の開始（仏滅）", "服薬の開始・土いじり（十二直「満」）"],
+      tags: []
+    },
+    {
+      d: 29, roku: "大安", choku: "平", eto: "乙亥", etoYomi: "きのとい", kyu: "旧7/17", kyuKanji: "旧七月十七日",
+      kyusei: "一白水星", kin: 97, kinName: "赤い律動の地球", ko: "天地始粛（てんちはじめてさむし）",
+      gogyo: "木", houi: "北西", food: "きゅうり・青じそ・ぶどう", color: "白・黒", kotodama: "調子がそろう",
+      theme: "大安と「平」。生活のリズムをそろえ直す日。",
+      dos: ["旅行・移動・和解", "起きる時間と寝る時間を整える", "部屋の配置をならす"],
+      donts: ["棟上げ・地鎮祭・引っ越し（三隣亡）", "穴掘り・種まき"],
+      tags: [{ n: "三隣亡", k: "bad", t: "建築の大凶日。棟上げ・地鎮祭・引っ越しは避ける。" }]
+    },
+    {
+      d: 30, roku: "赤口", choku: "定", eto: "丙子", etoYomi: "ひのえね", kyu: "旧7/18", kyuKanji: "旧七月十八日",
+      kyusei: "九紫火星", kin: 98, kinName: "白い共振の鏡", ko: "天地始粛（てんちはじめてさむし）",
+      gogyo: "火", houi: "北", food: "トマト・いちじく", color: "紫・赤", kotodama: "これに決めます",
+      theme: "八月最後の万倍日。九月に向けて方針を定める。",
+      dos: ["正午前後に来月の計画を定める（十二直「定」）", "新しい習慣を申し込む", "続けたいことを一つ選ぶ"],
+      donts: ["訴訟・旅行の出発（「定」）", "借金"],
+      tags: [{ n: "一粒万倍日", k: "best", t: "8月最後の一粒万倍日。9月に向けた準備を始めるのに吉。" }]
+    },
+    {
+      d: 31, roku: "先勝", choku: "執", eto: "丁丑", etoYomi: "ひのとうし", kyu: "旧7/19", kyuKanji: "旧七月十九日",
+      kyusei: "八白土星", kin: 99, kinName: "青い銀河の嵐", ko: "天地始粛（てんちはじめてさむし）",
+      gogyo: "火", houi: "北東", food: "生姜・温かい汁物", color: "白・黄土色", kotodama: "よく休みます",
+      theme: "受死日と不成就日が重なる締めの日。無理をしない。",
+      dos: ["午前中に事務処理と掃除を済ませる", "八月を振り返って書き留める", "早めに休む"],
+      donts: ["新規事・慶事・大きな決断はすべて九月へ", "旅立ち・移転"],
+      tags: [
+        { n: "不成就日", k: "bad", t: "何事も成就しないとされる日。" },
+        { n: "受死日", k: "bad", t: "暦注下段で最大の凶日（黒日）。慶事は避ける。" }]
+    }
+  ];
+
+  const ROKU_MEAN = {
+    "先勝": "午前が吉、午後は凶。急ぐ用事や早めの決断に向く。",
+    "友引": "朝夕は吉、正午のみ凶。祝い事に良い日。",
+    "先負": "午前は凶、午後が吉。急がず控えめに動く。",
+    "仏滅": "万事に凶とされる日。整理や手放しには向く。",
+    "大安": "終日吉。六曜でもっとも良い日。",
+    "赤口": "正午前後のみ吉。火と刃物に注意。"
+  };
+
+  const CHOKU_MEAN = {
+    "建": "【吉】万物を建て生じる日。開店・移転・契約に吉。土を動かすことは凶。",
+    "除": "【半吉】不浄を取り除く日。掃除・治療・種まきに吉。婚礼は凶。",
+    "満": "【吉】万物が満ち足りる日。新規事・移転・祝い事に吉。服薬・土いじりは凶。",
+    "平": "【吉】物事が平らかに整う日。旅行・婚礼・道路の修理に吉。穴掘りは凶。",
+    "定": "【吉】善悪が定まる日。開店・婚礼・移転に吉。訴訟・旅行は凶。",
+    "執": "【半吉】物事を執り行う日。祭祀・造作・種まきに吉。金銭の出入りは凶。",
+    "破": "【凶】物事を突き破る日。談判・訴訟にのみ吉。祝い事・契約は凶。",
+    "危": "【凶】万事に危うさが伴う日。高所・船旅は避け、控えめに過ごす。",
+    "成": "【吉】物事が成就する日。新規事・建築・開店に吉。訴訟は凶。",
+    "納": "【半吉】収穫を納める日。買い物・集金に吉。婚礼・見舞いは凶。",
+    "開": "【吉】運が開ける日。建築・移転・婚礼に吉。葬儀など不浄事は凶。",
+    "閉": "【半吉】閉じ込める日。金銭の出納・貯蓄・墓造りに吉。開店・婚礼は凶。"
+  };
+
+  // 神仏の縁日（干支・日付から）
+  function engiOf(day) {
+    const e = [];
+    const shi = day.eto.charAt(1);
+    if (shi === "寅") e.push("毘沙門天（寅の日）");
+    if (shi === "巳") e.push(day.eto === "己巳" ? "弁財天（己巳の日）" : "弁財天（巳の日）");
+    if (shi === "辰") e.push("龍神（辰の日）");
+    if (shi === "午") e.push("お稲荷さん（午の日）");
+    if (day.eto === "甲子") e.push("大黒天（甲子の日）");
+    if (day.d === 18) e.push("観音菩薩");
+    if (day.d === 21) e.push("弘法大師");
+    if (day.d === 24) e.push("地蔵菩薩");
+    if (day.d === 28) e.push("不動明王");
+    if (day.d === 5) e.push("水天宮");
+    return e;
+  }
+
+  const WD = ["日", "月", "火", "水", "木", "金", "土"];
+  const FIRST_DOW = 6; // 2026年8月1日は土曜
+  const now = new Date();
+  const inAugust = now.getFullYear() === 2026 && now.getMonth() === 7;
+  const TODAY = inAugust ? now.getDate() : 2;
+
+  const cal = document.getElementById("cal");
+  const detail = document.getElementById("detail");
+  const feature = document.getElementById("feature");
+
+  WD.forEach((w, i) => {
+    const el = document.createElement("div");
+    el.className = "dow" + (i === 0 ? " sun" : i === 6 ? " sat" : "");
+    el.textContent = w;
+    cal.appendChild(el);
+  });
+
+  for (let i = 0; i < FIRST_DOW; i++) {
+    const b = document.createElement("div");
+    b.className = "cell blank";
+    cal.appendChild(b);
+  }
+
+  DAYS.forEach((day, idx) => {
+    const dow = (FIRST_DOW + idx) % 7;
+    day.dow = dow;
+
+    const cell = document.createElement("button");
+    cell.type = "button";
+    cell.className = "cell" + (dow === 0 ? " sun" : dow === 6 ? " sat" : "") +
+      (day.holiday ? " holiday" : "") + (day.d === TODAY ? " is-today" : "");
+    cell.style.animationDelay = (Math.floor(idx / 7) * 45) + "ms";
+    cell.dataset.day = day.d;
+    cell.setAttribute("aria-label", `8月${day.d}日 ${WD[dow]}曜日 ${day.roku} ${day.theme}`);
+
+    const head = document.createElement("div");
+    head.className = "cell-head";
+    head.innerHTML = `<span class="num">${day.d}</span>` +
+      `<span class="roku ${day.roku === "大安" ? "taian" : day.roku === "仏滅" ? "butsumetsu" : ""}">${day.roku}</span>` +
+      `<span class="kyureki">${day.kyu}</span>`;
+    cell.appendChild(head);
+
+    if (day.evt) {
+      const e = document.createElement("div");
+      e.className = "evt" + (day.holiday ? " holiday" : "");
+      e.textContent = day.evt;
+      cell.appendChild(e);
+    }
+
+    const tags = document.createElement("div");
+    tags.className = "tags";
+    day.tags.forEach(t => {
+      const s = document.createElement("span");
+      s.className = "tag " + t.k;
+      s.textContent = t.n;
+      s.title = t.n;
+      tags.appendChild(s);
+    });
+    cell.appendChild(tags);
+
+    const foot = document.createElement("div");
+    foot.className = "foot";
+    foot.innerHTML = `<span>${day.choku}</span><span>${day.eto}</span><span>${day.kyusei.slice(0, 2)}</span><span>Kin${day.kin}</span>`;
+    cell.appendChild(foot);
+
+    cell.addEventListener("click", () => select(day.d));
+    cal.appendChild(cell);
+  });
+
+  function renderFeature(day) {
+    const label = day.d === TODAY && inAugust ? "本日のこよみ" : `8月${day.d}日のこよみ`;
+    feature.innerHTML = `
+      <div class="f-date">
+        <div class="label">${label}</div>
+        <div class="big">8月${day.d}日<small style="font-size:.58em">（${WD[day.dow]}）</small></div>
+        <div class="rows">
+          <div><span>六曜</span>${day.roku}　<span>十二直</span>${day.choku}</div>
+          <div><span>干支</span>${day.eto}　<span>九星</span>${day.kyusei}</div>
+          <div><span>マヤ暦</span>Kin${day.kin} ${day.kinName}</div>
+          <div><span>候</span>${day.ko}</div>
+        </div>
+      </div>
+      <div class="f-main">
+        <div class="f-theme">
+          <div class="eyebrow">今日のテーマ</div>
+          <p>${day.theme}</p>
+        </div>
+        <div class="f-acts">
+          <div class="do">
+            <h4>最適な行動</h4>
+            <ul>${day.dos.map(x => `<li>${x}</li>`).join("")}</ul>
+          </div>
+          <div class="dont">
+            <h4>注意する行動</h4>
+            <ul>${day.donts.map(x => `<li>${x}</li>`).join("")}</ul>
+          </div>
+        </div>
+      </div>
+      <div class="f-luck">
+        <div class="item"><div class="k">開運フード</div><div class="v">${day.food}</div></div>
+        <div class="item"><div class="k">吉方位</div><div class="v">${day.houi}（${day.eto.charAt(1)}）</div></div>
+        <div class="item"><div class="k">開運色</div><div class="v">${day.color}</div></div>
+        <div class="item kotodama"><div class="k">今日の言霊</div><div class="v">「${day.kotodama}」</div></div>
+      </div>`;
+  }
+
+  function select(d) {
+    const day = DAYS.find(x => x.d === d);
+    document.querySelectorAll(".cell").forEach(c => c.classList.toggle("is-selected", c.dataset.day === String(d)));
+    renderFeature(day);
+
+    const items = day.tags.map(t => `<li class="${t.k}"><b>${t.n}</b>${t.t}</li>`).join("");
+    const engi = engiOf(day);
+
+    detail.innerHTML = `
+      <div class="detail-head">
+        <div class="d-date">8月${day.d}日<small style="font-size:.6em">（${WD[day.dow]}）</small></div>
+        <div class="d-sub">${day.kyuKanji}　${day.eto}（${day.etoYomi}）${day.evt ? "　" + day.evt : ""}</div>
+      </div>
+      <div class="detail-body">
+        <div class="d-row d-theme">
+          <div class="d-key">今日のテーマ</div>
+          <div class="d-val">${day.theme}</div>
+        </div>
+        <div class="d-row">
+          <div class="d-key">六曜</div>
+          <div class="d-val">${day.roku}</div>
+          <p>${ROKU_MEAN[day.roku]}</p>
+        </div>
+        <div class="d-row">
+          <div class="d-key">十二直</div>
+          <div class="d-val">${day.choku}</div>
+          <p>${CHOKU_MEAN[day.choku]}</p>
+        </div>
+        <div class="d-row">
+          <div class="d-key">マヤ暦</div>
+          <div class="d-val">Kin ${day.kin}　${day.kinName}</div>
+          <p>白い北の城（洗練の期間）。</p>
+        </div>
+        <div class="d-row">
+          <div class="d-key">この日の暦注</div>
+          ${items ? `<ul class="d-list" style="margin-top:6px">${items}</ul>`
+        : `<p>特別な吉日・凶日はありません。六曜と十二直を目安に。</p>`}
+        </div>
+        <div class="d-grid">
+          <div><div class="k">九星</div><div class="v">${day.kyusei}</div></div>
+          <div><div class="k">五行（日の干）</div><div class="v">${day.gogyo}</div></div>
+          <div><div class="k">開運フード</div><div class="v">${day.food}</div></div>
+          <div><div class="k">吉方位</div><div class="v">${day.houi}</div></div>
+          <div class="wide"><div class="k">七十二候</div><div class="v" style="color:var(--ink)">${day.ko}</div></div>
+          ${engi.length ? `<div class="wide"><div class="k">縁日</div><div class="v" style="color:var(--ink)">${engi.join("／")}</div></div>` : ""}
+          <div class="wide"><div class="k">今日の言霊</div><div class="v">「${day.kotodama}」</div></div>
+        </div>
+      </div>`;
+  }
+
+  select(TODAY);
+
+  /* ══ アプリとして使うための設定 ══════════════════════════════ */
+  const CAT_ICON = "./icons/icon-192.png";
+  const APP_URL = location.href.split(/[?#]/)[0];
+
+  document.getElementById("app-icon").src = CAT_ICON;
+
+  (function registerSW() {
+    if (!("serviceWorker" in navigator)) return;
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js").catch(() => { /* オフライン化は使えないが表示には影響しない */ });
+    });
+  })();
+
+  /* Android・PC Chrome：ホーム画面に追加できるときだけボタンを出す */
+  (function installButton() {
+    const btn = document.getElementById("btn-install");
+    let deferred = null;
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferred = e;
+      btn.hidden = false;
+    });
+    btn.addEventListener("click", async () => {
+      if (!deferred) return;
+      deferred.prompt();
+      const res = await deferred.userChoice;
+      if (res.outcome === "accepted") btn.hidden = true;
+      deferred = null;
+    });
+    window.addEventListener("appinstalled", () => { btn.hidden = true; });
+  })();
+
+  /* ══ QRコード（バイトモード・誤り訂正M・version 2〜10） ═══════ */
+  const QR = (function () {
+    const ECC = {
+      2: [16, [[1, 28]]], 3: [26, [[1, 44]]], 4: [18, [[2, 32]]], 5: [24, [[2, 43]]],
+      6: [16, [[4, 27]]], 7: [18, [[4, 31]]], 8: [22, [[2, 38], [2, 39]]],
+      9: [22, [[3, 36], [2, 37]]], 10: [26, [[4, 43], [1, 44]]]
+    };
+    const ALIGN = {
+      2: [6, 18], 3: [6, 22], 4: [6, 26], 5: [6, 30], 6: [6, 34],
+      7: [6, 22, 38], 8: [6, 24, 42], 9: [6, 26, 46], 10: [6, 28, 50]
+    };
+    const EXP = new Uint8Array(512), LOG = new Uint8Array(256);
+    (function () {
+      let x = 1;
+      for (let i = 0; i < 255; i++) { EXP[i] = x; LOG[x] = i; x <<= 1; if (x & 0x100) x ^= 0x11d; }
+      for (let i = 255; i < 512; i++) EXP[i] = EXP[i - 255];
+    })();
+    const mul = (a, b) => (a && b) ? EXP[LOG[a] + LOG[b]] : 0;
+
+    function genPoly(n) {
+      let g = [1];
+      for (let i = 0; i < n; i++) {
+        const ng = new Array(g.length + 1).fill(0);
+        for (let j = 0; j < g.length; j++) { ng[j] ^= g[j]; ng[j + 1] ^= mul(g[j], EXP[i]); }
+        g = ng;
+      }
+      return g;
+    }
+
+    function ecBytes(data, n) {
+      const g = genPoly(n), rem = new Uint8Array(n);
+      for (const b of data) {
+        const f = b ^ rem[0];
+        for (let i = 0; i < n - 1; i++) rem[i] = rem[i + 1] ^ mul(g[i + 1], f);
+        rem[n - 1] = mul(g[n], f);
+      }
+      return rem;
+    }
+
+    function encode(text) {
+      const bytes = new TextEncoder().encode(text);
+      let ver = 2;
+      while (ver <= 10) {
+        const cap = ECC[ver][1].reduce((s, b) => s + b[0] * b[1], 0);
+        if (4 + (ver <= 9 ? 8 : 16) + bytes.length * 8 <= cap * 8) break;
+        ver++;
+      }
+      if (ver > 10) throw new Error("QR: データが長すぎます");
+
+      const ecLen = ECC[ver][0], blocks = ECC[ver][1];
+      const dataCw = blocks.reduce((s, b) => s + b[0] * b[1], 0);
+      const bits = [];
+      const push = (val, len) => { for (let i = len - 1; i >= 0; i--) bits.push((val >>> i) & 1); };
+      push(4, 4);
+      push(bytes.length, ver <= 9 ? 8 : 16);
+      for (const b of bytes) push(b, 8);
+      for (let i = 0; i < 4 && bits.length < dataCw * 8; i++) bits.push(0);
+      while (bits.length % 8) bits.push(0);
+
+      const cw = [];
+      for (let i = 0; i < bits.length; i += 8) {
+        let v = 0;
+        for (let j = 0; j < 8; j++) v = (v << 1) | bits[i + j];
+        cw.push(v);
+      }
+      for (let pad = 0; cw.length < dataCw; pad ^= 1) cw.push(pad ? 0x11 : 0xec);
+
+      const dataBlocks = [], ecBlocks = [];
+      let p = 0;
+      for (const blk of blocks) {
+        for (let i = 0; i < blk[0]; i++) {
+          const d = cw.slice(p, p + blk[1]); p += blk[1];
+          dataBlocks.push(d);
+          ecBlocks.push(ecBytes(d, ecLen));
+        }
+      }
+      const out = [];
+      const maxLen = Math.max.apply(null, dataBlocks.map(b => b.length));
+      for (let i = 0; i < maxLen; i++) for (const b of dataBlocks) if (i < b.length) out.push(b[i]);
+      for (let i = 0; i < ecLen; i++) for (const b of ecBlocks) out.push(b[i]);
+      return { ver: ver, cw: out };
+    }
+
+    const MASKS = [
+      (x, y) => (x + y) % 2 === 0,
+      (x, y) => y % 2 === 0,
+      (x, y) => x % 3 === 0,
+      (x, y) => (x + y) % 3 === 0,
+      (x, y) => (Math.floor(y / 2) + Math.floor(x / 3)) % 2 === 0,
+      (x, y) => (x * y) % 2 + (x * y) % 3 === 0,
+      (x, y) => ((x * y) % 2 + (x * y) % 3) % 2 === 0,
+      (x, y) => ((x + y) % 2 + (x * y) % 3) % 2 === 0
+    ];
+
+    function formatBits(mask) {
+      const data = mask; // 誤り訂正レベル M = 0b00
+      let rem = data;
+      for (let i = 0; i < 10; i++) rem = (rem << 1) ^ ((rem >>> 9) * 0x537);
+      return ((data << 10) | rem) ^ 0x5412;
+    }
+
+    function build(text) {
+      const enc = encode(text), ver = enc.ver, cw = enc.cw;
+      const size = 17 + 4 * ver;
+      const m = [], res = [];
+      for (let y = 0; y < size; y++) { m.push(new Uint8Array(size)); res.push(new Uint8Array(size)); }
+      const put = (x, y, v) => {
+        if (x < 0 || y < 0 || x >= size || y >= size) return;
+        m[y][x] = v ? 1 : 0; res[y][x] = 1;
+      };
+
+      // ファインダ＋セパレータ
+      [[0, 0], [size - 7, 0], [0, size - 7]].forEach(o => {
+        for (let dy = -1; dy <= 7; dy++) for (let dx = -1; dx <= 7; dx++) {
+          const d = Math.max(Math.abs(dx - 3), Math.abs(dy - 3));
+          put(o[0] + dx, o[1] + dy, d !== 2 && d <= 3);
+        }
+      });
+      // タイミング
+      for (let i = 8; i < size - 8; i++) { put(i, 6, i % 2 === 0); put(6, i, i % 2 === 0); }
+      // アライメント
+      const pos = ALIGN[ver] || [];
+      for (const ay of pos) for (const ax of pos) {
+        if ((ax < 8 && ay < 8) || (ax < 8 && ay > size - 9) || (ax > size - 9 && ay < 8)) continue;
+        for (let dy = -2; dy <= 2; dy++) for (let dx = -2; dx <= 2; dx++)
+          put(ax + dx, ay + dy, Math.max(Math.abs(dx), Math.abs(dy)) !== 1);
+      }
+      // フォーマット情報の予約
+      for (let i = 0; i <= 8; i++) { if (i !== 6) { put(8, i, 0); put(i, 8, 0); } }
+      for (let i = 0; i < 8; i++) { put(8, size - 1 - i, 0); put(size - 1 - i, 8, 0); }
+      put(8, size - 8, 1);
+      // バージョン情報
+      if (ver >= 7) {
+        let rem = ver;
+        for (let i = 0; i < 12; i++) rem = (rem << 1) ^ ((rem >>> 11) * 0x1f25);
+        const vb = (ver << 12) | rem;
+        for (let i = 0; i < 18; i++) {
+          const bit = (vb >>> i) & 1, a = size - 11 + i % 3, b = Math.floor(i / 3);
+          put(a, b, bit); put(b, a, bit);
+        }
+      }
+
+      // データ配置（右下から上下ジグザグ）
+      let idx = 0, up = true;
+      for (let right = size - 1; right >= 1; right -= 2) {
+        if (right === 6) right = 5;
+        for (let v = 0; v < size; v++) {
+          const y = up ? size - 1 - v : v;
+          for (let c = 0; c < 2; c++) {
+            const x = right - c;
+            if (res[y][x]) continue;
+            m[y][x] = idx < cw.length * 8 ? (cw[idx >> 3] >>> (7 - (idx & 7))) & 1 : 0;
+            idx++;
+          }
+        }
+        up = !up;
+      }
+
+      function putFormat(mm, mask) {
+        const b = formatBits(mask);
+        for (let i = 0; i <= 5; i++) mm[i][8] = (b >>> i) & 1;
+        mm[7][8] = (b >>> 6) & 1;
+        mm[8][8] = (b >>> 7) & 1;
+        mm[8][7] = (b >>> 8) & 1;
+        for (let i = 9; i < 15; i++) mm[8][14 - i] = (b >>> i) & 1;
+        for (let i = 0; i < 8; i++) mm[8][size - 1 - i] = (b >>> i) & 1;
+        for (let i = 8; i < 15; i++) mm[size - 15 + i][8] = (b >>> i) & 1;
+        mm[size - 8][8] = 1;
+      }
+
+      function penalty(mm) {
+        let sc = 0;
+        const lines = [];
+        for (let y = 0; y < size; y++) { let s = ""; for (let x = 0; x < size; x++) s += mm[y][x]; lines.push(s); }
+        for (let x = 0; x < size; x++) { let s = ""; for (let y = 0; y < size; y++) s += mm[y][x]; lines.push(s); }
+        const p1 = "10111010000", p2 = "00001011101";
+        for (const s of lines) {
+          let run = 1;
+          for (let i = 1; i <= s.length; i++) {
+            if (i < s.length && s[i] === s[i - 1]) run++;
+            else { if (run >= 5) sc += 3 + (run - 5); run = 1; }
+          }
+          for (let i = 0; i + 11 <= s.length; i++) {
+            if (s.substr(i, 11) === p1 || s.substr(i, 11) === p2) sc += 40;
+          }
+        }
+        for (let y = 0; y < size - 1; y++) for (let x = 0; x < size - 1; x++) {
+          const v = mm[y][x];
+          if (v === mm[y][x + 1] && v === mm[y + 1][x] && v === mm[y + 1][x + 1]) sc += 3;
+        }
+        let dark = 0;
+        for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) dark += mm[y][x];
+        sc += Math.floor(Math.abs(dark * 100 / (size * size) - 50) / 5) * 10;
+        return sc;
+      }
+
+      let best = null, bestScore = Infinity;
+      for (let mask = 0; mask < 8; mask++) {
+        const mm = m.map(r => Uint8Array.from(r));
+        for (let y = 0; y < size; y++) for (let x = 0; x < size; x++)
+          if (!res[y][x] && MASKS[mask](x, y)) mm[y][x] ^= 1;
+        putFormat(mm, mask);
+        const s = penalty(mm);
+        if (s < bestScore) { bestScore = s; best = mm; }
+      }
+      return { size: size, modules: best };
+    }
+
+    function draw(canvas, text, scale, quiet) {
+      scale = scale || 8; quiet = quiet === undefined ? 4 : quiet;
+      const q = build(text), px = (q.size + quiet * 2) * scale;
+      canvas.width = px; canvas.height = px;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, px, px);
+      ctx.fillStyle = "#14263c";
+      for (let y = 0; y < q.size; y++) for (let x = 0; x < q.size; x++)
+        if (q.modules[y][x]) ctx.fillRect((x + quiet) * scale, (y + quiet) * scale, scale, scale);
+      return q;
+    }
+
+    return { draw: draw, build: build };
+  })();
+
+  /* ══ 画面の配線 ═══════════════════════════════════════════ */
+  const qrDialog = document.getElementById("qr-dialog");
+  const qrCanvas = document.getElementById("qr-canvas");
+  let qrDrawn = false;
+
+  document.getElementById("btn-qr").addEventListener("click", () => {
+    if (!qrDrawn) {
+      QR.draw(qrCanvas, APP_URL, 8, 4);
+      document.getElementById("qr-url").textContent = APP_URL;
+      qrDrawn = true;
+    }
+    qrDialog.showModal();
+  });
+
+  document.getElementById("btn-qr-close").addEventListener("click", () => qrDialog.close());
+
+  document.getElementById("btn-qr-save").addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = qrCanvas.toDataURL("image/png");
+    a.download = "猫の暦-QRコード.png";
+    a.click();
+  });
+
+  document.getElementById("btn-today").addEventListener("click", () => {
+    select(TODAY);
+    window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  });
+</script>
+
+</body>
+</html>
