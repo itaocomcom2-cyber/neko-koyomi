@@ -6,7 +6,11 @@
 
 ## 公開URL
 
-（GitHub Pages を有効にしたあと、ここにURLを書きます）
+**https://itaocomcom2-cyber.github.io/neko-koyomi/**
+
+<img src="./qr.png" alt="公開URLのQRコード" width="200">
+
+スマホのカメラでこのQRコードを読み取ると開きます。ログインは不要です。
 
 ## ホーム画面への追加
 
