@@ -1,6 +1,6 @@
 /* 猫の暦 — オフライン用 Service Worker
    ファイルを更新したら CACHE の版数を上げること（例: v1 → v2） */
-const CACHE = "neko-koyomi-v3";
+const CACHE = "neko-koyomi-v4";
 
 const ASSETS = [
   "./",
