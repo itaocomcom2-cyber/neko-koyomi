@@ -20,8 +20,8 @@
 | --- | --- |
 | 公開サイト | https://itaocomcom2-cyber.github.io/neko-koyomi/ |
 | リポジトリ（**Public**） | https://github.com/itaocomcom2-cyber/neko-koyomi |
-| ローカル作業ディレクトリ | `C:\Users\User\neko-koyomi` |
-| QRコード（公開URL用） | `C:\Users\User\OneDrive\デスクトップ\猫の暦QRコード.png` と リポジトリ内 `qr.png` |
+| ローカル作業ディレクトリ | `C:\Users\User\OneDrive\デスクトップ\AI\1_アプリ\猫の暦`（2026-09-03 にホーム直下から移動）|
+| QRコード（公開URL用） | リポジトリ内 `qr.png`（デスクトップにあった複製は 2026-08-12 に削除済み）|
 | アイコン元画像 | `C:\Users\User\Downloads\ChatGPT Image 2026年8月2日 01_10_10.png`（941×1672） |
 | 旧版（Claude Artifact） | https://claude.ai/code/artifact/f55e5c3e-afe6-4187-bd59-4dfe0857d56d |
 
@@ -30,7 +30,7 @@ Artifact版は単一ファイルにアイコンをbase64で埋め込んだ別系
 ## ファイル構成
 
 ```
-neko-koyomi/
+猫の暦/                   （フォルダ名。GitHub のリポジトリ名は neko-koyomi）
   index.html              カレンダー本体（5か月分の暦データ・アドバイス・QR生成をすべて内蔵、外部依存ゼロ）
   manifest.webmanifest    アプリ名「猫の暦」・standalone・アイコン定義
   sw.js                   オフライン用 Service Worker
@@ -153,7 +153,7 @@ neko-koyomi/
 ## 更新手順
 
 ```
-cd C:\Users\User\neko-koyomi
+cd C:\Users\User\OneDrive\デスクトップ\AI\1_アプリ\猫の暦
 （編集する）
 （sw.js の CACHE を neko-koyomi-v1 → v2 のように上げる）★忘れると古い内容が残る
 git add -A
